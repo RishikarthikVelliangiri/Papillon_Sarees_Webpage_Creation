@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Fourth Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+    font-family: 'Nunito';font-size: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+.topnav {
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #FFA596;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.topnav a:hover {
+  background-color: #FFA596;
+  color: white;
+}
+.background-title {
+  background-color: #F58D8D;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+}
+
+.text-title{
+  background-color: white;
+  color: black;
+  font-size: 6vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 65%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen; 
+ 
+ }
+
+
+
+.content {
+  background-color: #F4F4F4;
+  padding: 20px;
+
+}
+.content2 {
+  background-color: #F4F4F4;
+  padding: 20px;
+
+}
+.adding_feedback {
+  background-color: white;
+  padding: 10px;
+  height: 210px;
+  
+  }
+  
+ {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  label, input {
+    display: block;
+}
+
+
+label {
+    margin-bottom: 20px;
+}
+
+
+.container {position: absolute; margin: 0; width:100%; background: #f4f5f4; min-height: 600px; 
+
+}
+
+.white-box { width: 1300px; height: 680px; margin-top: 50px; margin-left: auto; margin-right: auto;   
+  
+background: rgba(255,255,255,0.9);
+padding: 30px;
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+
+}
+
+.footer {
+  background-color: white;
+  padding: 10px;
+  height: 50px;
+  
+  
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="Thirdpage.html">Feedback</a>
+  <a href="Secondpage.html">Products</a>
+  <a href="Firstpage.html">Home</a>
+  <p style="color:#FFA596;">⠀⠀Pappilon Sarees </p>
+</div>
+
+<div class="background-title">
+  <div class="text-title">CONTACT</div>
+</div>
+
+
+<div class="content2">
+<h1 style="font-size:22px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png" alt="QRpic" style="float:right;width:200px;height:200px;padding:0px 0px;">WhatsApp</h1>
+<p>
+Scan this QR code to get direct access to our boutique WhatsApp group:
+</p>
+</div>
+
+<div class="content2">
+</div>
+
+<div class="content">
+<h1 style="font-size:22px;">Direct Call/Email </h1>
+<p>
+Fill our your information if you don’t have WhatsApp and/or you want to talk directly. Your information will go to the
+owner. For reason of call, type it down in reason of calling:
+ </p>
+</div>
+
+
+
+<div class="container">
+  <div class="white-box">
+
+<form name="frmQuery" method="post" action="CONTACT.php">
+<label style="font-size:22px;"><img src="https://images.unsplash.com/photo-1609748341859-b75967ead013?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="Sareepic" style="float:right;width:500px;height:500px;padding:0px 75px;">
+  
+  <label for="Name">Full name</label><br>
+  <input type="text" id="Name" name="Name" ><br>
+  
+    <label for="Email">Email</label><br>
+  <input type="text" id="Email" name="Email" ><br>
+  
+  <label for="PhoneNumber">Phone Number</label><br>
+  <input type="number" id="PhoneNumber" name="PhoneNumber" ><br>
+  
+</label>
+<label>
+<textarea name="Query" id="Query" rows="10" cols="30">Reason for Calling(Product, Query etc.)</textarea>
+  <br><br>
+   <input type="submit" name="submit" id="submit">
+   
+  </label>
+</form> 
+    </div>
+    </div>
+    
+   
+ </p>
+</div>
+
+
+</body>
+</html>
+
